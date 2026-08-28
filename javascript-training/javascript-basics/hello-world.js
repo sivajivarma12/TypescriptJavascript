@@ -1,52 +1,18 @@
-console.log("Hello, World !!");
+console.log("Hello, World!");
 
-//console method are log warn info error
-console.warn("warning message");
-console.info("info message");
-console.error("error message");
-//a=sumofnumbers(5+10);
-//console.log(a);
+// How print statements are going to help us in our day-to-day programming? 
 
-//one line comment
-/*multiple line commeting line
-2 line 
-3rd line
-*/
+//1. Debugging and error detection 
+//2. Monitoring the program execution to understand the flow 
+//3. Education and Learning Purpose 
+//4. Testing and validating the results 
+//5. Log the system result to analyze later. 
 
-var a;
-console.log(a);
-var b=10;
-let c=20;
-const d= 200;
 
-console.log(b);
-console.log(c);
-console.log(d);
+// Generic print statement in the JavaScript 
+console.log("Hello, World!");
 
-b=1000;
-c=2000;
-//d=3000;
-
-console.log(b);
-console.log(c);
-console.log(d);
-
-var b=10;
-let c=20;
-const d= 200;
-console.log(b);
-console.log(c);
-console.log(d);
-
-{
-    var value1=100;
-    let value2=200;
-    const value3=300;
-    console.log(value1);
-    console.log(value2);
-    console.log(value3);
-}
-
-    console.log(value1);
-    console.log(value2);
-    console.log(value3);
+// Debugging print statements in JavaScript 
+console.info("This is an info message.");
+console.warn("This is a warning message.");
+console.error("This is an error message.");
